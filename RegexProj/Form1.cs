@@ -49,7 +49,7 @@ namespace RegexProj
             Regex hash = null;
             if (comboBox1.Text.Equals("MD5")) {
                  hash = new Regex(@"[0-9a-f]{32}", RegexOptions.IgnoreCase);
-                MessageBox.Show("The program will try to return MD5 hashed passwords together with the email! Please give it time to scan the file and load the results.");
+                MessageBox.Show("The program will try to return MD5 hashed passwords together with the email! Please give it time to scan the file and load the results :).");
             }
             else if(comboBox1.Text.Equals("SHA1"))
             {
